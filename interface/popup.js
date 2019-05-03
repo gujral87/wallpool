@@ -62,5 +62,5 @@ function animation() {
  document.querySelector(".fa-sync").classList.toggle("fa-spin");
 }
 
-// Refresh image on button click
+// Refresh image on button click 
 document.querySelector("#refreshImage").addEventListener("click", __request_Wallpaper);
