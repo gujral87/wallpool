@@ -10,7 +10,7 @@ const unsplashAPIConfig = {
  featured: true,
  orientation: "landscape",
  width: 600,
- key: "4b715fd38b022e5dcf4bc616e977776ac425867fa55c5f0592188da184bf856e",
+ key: "#######################################################",
  count: 1
 }
 
