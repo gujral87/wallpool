@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>WallPool - ChromeOS wallpaper Extension</title>
+
+ <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto" rel="stylesheet">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+ <header>
+  <nav>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-6">
+      <h1>WallPool <small>ChromeOS</small></h1>
+     </div>
+     <div class="col-6">
+      <input type="text" class="form-control" id="category" placeholder="search category">
+     </div>
+    </div>
+   </div>
+  </nav>
+ </header>
+
+ <section>
+  <div id="imageBlock">
+   <span id="refreshImage"><i class="fas fa-sync"></i></span>
+  </div>
+ </section>
+
+ <footer>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-12">
+     <button class="btn btn-outline-success" id="setWallpaper">Set as Wallpaper</button>
+    </div>
+    <div class="col-6">
+     <p>Photo by: <a id="authorLink" target="_blank"></a></p>
+    </div>
+    <div class="col-6 text-right">
+     <p>Credits: <a href="https://unsplash.com/?utm_source=WallPool&utm_medium=referral" target="_blank">Unsplash</a>
+     </p>
+    </div>
+   </div>
+  </div>
+ </footer>
+
+ <!-- // scripts -->
+ <script src="popup.js"></script>
+</body>
+
+</html>
